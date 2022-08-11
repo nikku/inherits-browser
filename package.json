@@ -1,7 +1,7 @@
 {
   "name": "inherits-browser",
   "description": "A inherits fork that is safe per default to use in browsers",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "source": "index.js",
   "module": "./dist/index.es.js",
   "main": "./dist/index.js",
