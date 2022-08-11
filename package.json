@@ -5,9 +5,10 @@
   "source": "index.js",
   "module": "./dist/index.es.js",
   "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "test": "echo 'no tests'",
-    "prepare": "microbundle -f cjs,esm"
+    "prepare": "microbundle -f cjs,esm && cpy index.d.ts dist/"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
     "dist"
   ],
   "devDependencies": {
+    "cpy-cli": "^4.1.0",
     "microbundle": "^0.14.2"
   }
 }
