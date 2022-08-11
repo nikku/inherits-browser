@@ -6,6 +6,10 @@ All notable changes to [inherits-browser](https://github.com/nikku/inherits-brow
 
 _**Note:** Yet to be released changes appear here._
 
+## 0.1.0
+
+* `FEAT`: add type definitions
+
 ## 0.0.1
 
 _Initial version._
